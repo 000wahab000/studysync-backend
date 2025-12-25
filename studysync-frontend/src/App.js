@@ -11,7 +11,7 @@ import {
   Tooltip,
   Legend,
 } from "chart.js";
-import { auth, provider, signInWithPopup, signOut } from "./firebaseClient";
+//import { auth, provider, signInWithPopup, signOut } from "./firebaseClient";
 
 ChartJS.register(
   ArcElement,
