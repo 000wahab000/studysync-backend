@@ -1,2 +1,14 @@
 serviceAccountKey.json
 node_modules/
+# Ignore build outputs and frontend build folder
+build/
+studysync-frontend/build/
+
+# Ignore local VS Code and installers
+*.exe
+*.VSCodeUserSetup*
+
+# Ignore firebase hosting cache and local firebase files
+studysync-frontend/.firebase/
+studysync-frontend/.firebaserc
+studysync-frontend/firebase.json
